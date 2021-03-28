@@ -5,8 +5,8 @@ Convert a `.bmp` file into `.yuv` file. Change its colorspace from RGB to YUV.
 ## Get Started
 * Open Windows Terminal
 * `cd \path_to_the_project\homework\lab1\` direct to the program.
-* `$ gcc convertion.c` to compile.
-* Input the name of source image (in `.bmp` format) and the output image (whatever you want, better in `.yuv` format or the program won't recognize). Sample script: `$ .\convertion.exe test.bmp out.yuv`
+* `$ gcc conversion.c` to compile.
+* Input the name of source image (in `.bmp` format) and the output image (whatever you want, better in `.yuv` format or the program won't recognize). Sample script: `$ .\conversion.exe test.bmp out.yuv`
 * Check the output image in `yuvplayer`. You may download it here: https://nchc.dl.sourceforge.net/project/raw-yuvplayer/yuvplayer-2.5.zip
 * As for my test image (`test.bmp`), set the size to **WQVGA** (416x240), and the color to **YUV420** (which means in the YUV color space, Y:U:V is 4:2:0).
 * See the result.
