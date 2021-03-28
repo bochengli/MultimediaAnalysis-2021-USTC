@@ -64,16 +64,16 @@ void rgb_to_yuv(unsigned char *rgbBuf, unsigned char *yBuf, unsigned char *uBuf,
   }
 }
 
-int main() {
+int main(int argc, char * argv[]) {
   unsigned char *rgbBuf, *yBuf, *vBuf, *uBuf;
   FILE *fpBMP, *fpOutput;
   BITMAPFILEHEADER *fileHeader;
   BITMAPINFOHEADER *infoHeader;
-  if ((fpBMP = fopen("test.bmp", "rb")) == NULL) {
+  if ((fpBMP = fopen(argv[1], "rb")) == NULL) {
     printf("FAILED TO OPEN FILE");
     exit(0);
   }
-  if ((fpOutput = fopen("sampleoutput.yuv", "wb")) == NULL) {
+  if ((fpOutput = fopen(argv[2], "wb")) == NULL) {
     printf("FAILED TO CREATE FILE");
     exit(0);
   }
