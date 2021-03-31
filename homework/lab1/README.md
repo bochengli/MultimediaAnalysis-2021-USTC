@@ -14,8 +14,8 @@ Convert a `.bmp` file into `.yuv` file. Change its colorspace from RGB to YUV.
 ## Sample Output
 ### test.bmp
 
-![test.bmp](/homework/lab1/images/test.bmp/)
+![test.bmp](/images/test.bmp)
 
 ### out.yuv
 
-<img src="/homework/lab1/images/out.png/" alt="out.yuv" style="zoom: 50%;" />
+<img src="/images/out.png" alt="out.yuv" style="zoom: 50%;" />
